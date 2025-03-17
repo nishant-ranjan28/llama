@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+env.bak/
+venv.bak/
+
+# Python virtual environment files
+*.env
+*.venv
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.whl
+
+# Data files
+*.csv
+*.json
+*.tsv
+*.yaml
+*.yml
+
+# LLM-related artifacts
+*.ckpt
+*.pt
+*.h5
+*.onnx
+*.pb
+*.bin
+*.tflite
+*.tar.gz
+*.zip
+
+# Hugging Face model directories
+output/
+runs/
+results/
+cache/
+logs/
+
+# Large model files
+models/
+checkpoints/
+pytorch_model.bin
+tf_model.h5
+
+# TensorBoard log files
+logs/
+*.tensorboard
+
+# Compiled Python files
+*.so
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test outputs
+pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Temporary files and folders
+*.tmp
+*.temp
+*.log
+*.log.*
+*.bak
+*.swp
+*.lock
+*.pid
+*.seed
+*.log
+
+# LLM generated files
+*.out
+*.in
+*.txt
+
+# Miscellaneous
+.idea/
+.vscode/
+*.code-workspace
